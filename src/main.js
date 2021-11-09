@@ -1,12 +1,7 @@
 import chalk from 'chalk';
 import fs from 'fs';
-import path from 'path';
 
-const currentFileUrl = import.meta.url;
-const templateDir = path.resolve(
-    new URL(currentFileUrl).pathname,
-    '../../templates',
-);
+const templateDir = __dirname + '/../templates';
 
 function createDirectory(options) {
     if (!fs.existsSync(options.targetDirectory)){
