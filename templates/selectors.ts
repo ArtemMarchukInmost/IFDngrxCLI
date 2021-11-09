@@ -1,10 +1,10 @@
 import {createFeatureSelector, createSelector} from '@ngrx/store';
-import {fromReducer} from './rpath.doNotTouch';
+import {from#Name} from './#path.reducer';
 
-export const selectReducerState = createFeatureSelector<fromReducer.IState>(
-    fromReducer.reducerFeatureKey,
+export const select#NameState = createFeatureSelector<from#Name.IState>(
+    from#Name.#nameFeatureKey,
 );
 
-export namespace ReducerSelectors {
+export namespace #NameSelectors {
 
 }

@@ -1,7 +1,7 @@
-import {createDoNotTouch, on} from '@ngrx/store';
+import {createReducer, on} from '@ngrx/store';
 
-export namespace fromReducer {
-    export const reducerFeatureKey = 'reducer';
+export namespace from#Name {
+    export const #nameFeatureKey = '#name';
 
     export interface IState {
     }
@@ -9,7 +9,7 @@ export namespace fromReducer {
     export const initialState: IState = {
     };
 
-    export const doNotTouch = createDoNotTouch(
+    export const reducer = createReducer(
         initialState,
 
     );

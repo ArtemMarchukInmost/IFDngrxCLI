@@ -3,7 +3,7 @@ import {Store} from '@ngrx/store';
 import {Actions, createEffect, ofType} from '@ngrx/effects';
 
 @Injectable()
-export class ReducerEffects {
+export class #NameEffects {
 
     constructor(private actions$: Actions,
                 private store$: Store) {

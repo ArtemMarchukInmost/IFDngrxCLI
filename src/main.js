@@ -11,11 +11,9 @@ function createDirectory(options) {
 }
 
 function parseContent(content, reducerLowerCase, reducerUpperCase, reducerName) {
-    content = content.replace(/reducer/g, reducerLowerCase);
-    content = content.replace(/Reducer/g, reducerUpperCase);
-    content = content.replace(/rpath/g, reducerName);
-    content = content.replace(/doNotTouch/g, 'reducer');
-    content = content.replace(/DoNotTouch/g, 'Reducer');
+    content = content.replace(/#name/g, reducerLowerCase);
+    content = content.replace(/#Name/g, reducerUpperCase);
+    content = content.replace(/#path/g, reducerName);
     return content;
 }
 
