@@ -18,6 +18,6 @@ create-reducer <group-name> --ne --na
 --no-actions // will not create actions
 --no-selectors // will not create selectors
 --ne // same as --no-effects
---ns // --no-selectors
+--ns // same as --no-selectors
 --na // same as --no-actions
 ```
