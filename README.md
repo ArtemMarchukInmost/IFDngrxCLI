@@ -14,7 +14,6 @@ create-reducer <group-name> --ne --na
   
 ## Options:
 ```html
-<!-- Options: -->
 --no-effects <!-- will not create effects -->
 --no-actions <!-- will not create actions -->
 --no-selectors <!-- will not create selectors -->
