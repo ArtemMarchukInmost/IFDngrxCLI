@@ -15,10 +15,10 @@ create-reducer <group-name> --ne --na
 ## Options:
 ```html
 <!-- Options: -->
---no-effects // will not create effects
---no-actions // will not create actions
---no-selectors // will not create selectors
---ne // same as --no-effects
---ns // same as --no-selectors
---na // same as --no-actions
+--no-effects <!-- will not create effects -->
+--no-actions <!-- will not create actions -->
+--no-selectors <!-- will not create selectors -->
+--ne <!-- same as --no-effects -->
+--ns <!-- same as --no-selectors -->
+--na <!-- same as --no-actions -->
 ```
