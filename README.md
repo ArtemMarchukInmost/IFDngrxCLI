@@ -3,6 +3,13 @@
 run 
 # npm i -g https://github.com/ArtemMarchukInmost/IFDngrxCLI.git
 
-create reducer group
+## Usage:
 create-reducer <group-name>
-  options
+  
+## Options:
+```html
+<!-- Options: -->
+--ne
+--ns
+--na
+```
