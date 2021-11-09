@@ -1,8 +1,10 @@
 # IFDngrxCLI
 
-run 
-# npm i -g https://github.com/ArtemMarchukInmost/IFDngrxCLI.git
-
+## Installation:
+```html
+npm i -g https://github.com/ArtemMarchukInmost/IFDngrxCLI.git
+  ```
+  
 ## Usage:
 ```html
 create-reducer <group-name>
@@ -11,7 +13,10 @@ create-reducer <group-name>
 ## Options:
 ```html
 <!-- Options: -->
---ne
+--no-effects
+--no-actions
+--no-selectors
+--ne // == --no-effects
 --ns
 --na
 ```
