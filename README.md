@@ -8,7 +8,7 @@ npm i -g https://github.com/ArtemMarchukInmost/IFDngrxCLI.git
 ## Usage:
 ```html
 create-reducer <group-name> --ne --na
-  <!-- sudo required for MacOS: -->
+  <!-- sudo required for MacOS -->
   ```
   
 ## Options:
